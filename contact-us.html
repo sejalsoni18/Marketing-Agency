@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="theme-color" content=''>
+	<link rel="canonical" href="https://mememarketing.in/" />
+	<title>Contact Us</title>
+	<meta name="title" content="Meme Marketing Agency | Contact Us">
+	<meta name="description"
+		content="We are top meme marketing services agency in India, Noida. We design brilliant campaigns by adding originality to popular memes.">
+	<meta name="keywords"
+		content="Meme Marketing Service in India, meme marketing agency in Noida, meme marketing company Noida, meme marketing company Noida, Top Meme Marketing Agency in India, Meme Marketing Service">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- plugins -->
+	<link rel="icon" href="img/">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/preloader.css">
+
+	<!--ff  -->
+
+	<!-- Fontawesome £cons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="JavaScript/script.js" defer=""></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+	<!--Home - Preloader01 -->
+	<div id="loader-container">
+		<div class="loader"></div>
+	</div>
+	<!-- NAVBAR -->
+	<article id="main">
+		<nav id="navbar">
+			<div class="blog-title">
+				<p class="brand-name">JN Media</p>
+			</div>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+			<div class="navbar-links">
+				<ul>
+					<li><a class="nav-link" href="index.html">Home</a></li>
+					<li><a class="nav-link" href="aboutus.html">About Us</a></li>
+					<li><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+
+					<li><a class="nav-link" href="fq-page.html">F&Qs</a></li>
+			</div>
+		</nav>
+		<section id="top-header-aboutus">
+			<div class="page-info">
+				<p><a href="index.html">Home</a> <span class="shlesh">/</span><a href="aboutus.html"><span>Contact Us
+							Us</span></a></p>
+			</div>
+			<div class="top-header-h1">
+				<h1>Contact Us</h1>
+				<p>Let's talk about your project, Send us a message We will be in touch within one day.</p>
+			</div>
+			<div class="btn-box-about ">
+				<button class="">Whatsapp Us</button>
+			</div>
+		</section>
+
+
+
+
+
+
+		<section id="contact-details-cn-1">
+			<div class="contact-para">
+				<p>Have a project in mind? Send us a message or give us a call.</p>
+			</div>
+			<div class="contact-cont-3">
+				<div class="container-con-mn">
+					<div class="logo-img">
+						<i class="fa fa-phone"></i>
+					</div>
+					<h4 class="text-center">Call Us</h4>
+					<p>+91 9630865104</p>
+				</div>
+
+
+				<div class="container-con-mn">
+					<div class="logo-img">
+						<i class="fa fa-whatsapp"></i>
+					</div>
+					<h4 class="text-center">Whatsapp Us</h4>
+					<p>+91 8964065104</p>
+				</div>
+
+
+				<div class="container-con-mn">
+					<div class="logo-img">
+						<i class="fa fa-apostrophy"></i>
+					</div>
+					<h4 class="text-center">Email Us</h4>
+					<p>jatinrane23@gmail.com</p>
+				</div>
+		</section>
+		<marquee>If you can't get any response tgen plz contact us on whatsapp</marquee>
+		<section id="form-container">
+			<div class="form-check-co-2">
+				<form onsubmit="sendEmail(); reset(); return false;">
+					<h3>Get In Touch</h3>
+					<input type="text" name=" Full Name" placeholder="Name" required>
+					<input type="email" id="email" name="Email" placeholder="Email Id" required>
+					<input type="text" id="phone" name="Phone" placeholder="Phone No." required>
+					<textarea type="text" name="Message" placeholder="Type Your Message Here!!">
+												</textarea>
+					<button class="submit-btn" type="submit" value="SEND MESSAGE">Send</button>
+				</form>
+			</div>
+		</section>
+		<footer class="footer">
+			<div id="container-ftr">
+				<div class="footer-media-links">
+					<p>Follow Us</p>
+					<ul class="social-links">
+						<a href="#"><i class="fa fa-facebook facebook-link hover-last"></i></a>
+						<a href="#"><i class="fa fa-instagram instagram-link hover-last"></i></a>
+						<a href=""><i class="fa fa-youtube youtube-link hover-last"></i></a>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="card-footer">
+				<div class="custom-terms-condition">
+					<a class="terms" href="#">Terms & Condition</a>
+					<a class="footer-contact" href="#">Contact Us</a>
+				</div>
+				<div class="copyright-new">
+					<p>Copyright &copy 2022. All right reserved. </p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script>
+			function sendEmail() {
+				Email.send({
+					Host: "smtp.gmail.com",
+					Username: "trilokchandrane89@gmail.com",
+					Password: "Rane@132",
+					To: 'jatinrane23@website.com',
+					From: document.getElementById("email").value,
+					Subject: "This is the subject",
+					Body: "And this is the body"
+				}).then(
+					message => alert(message)
+				);
+			}
+		</script>
+</body>
+
+</html>
